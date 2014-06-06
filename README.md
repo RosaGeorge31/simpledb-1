@@ -1,4 +1,4 @@
-simpledb
+SimpleDB
 ========
 
 MIT's SimpleDB as done in CS 143 at UCLA
