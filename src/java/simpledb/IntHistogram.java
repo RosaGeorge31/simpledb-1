@@ -22,7 +22,7 @@ public class IntHistogram {
      * @param min The minimum integer value that will ever be passed to this class for histogramming
      * @param max The maximum integer value that will ever be passed to this class for histogramming
      */
-	private int[] m_buckets;
+    private int[] m_buckets;
     private int m_numBuckets;
     private int m_avg;
     private int m_total;
@@ -81,22 +81,22 @@ public class IntHistogram {
         int height;
       
         if (bucket <= 0) {
-        	rightb = 0;
-        	leftb = -1;
+            rightb = 0;
+       	    leftb = -1;
             bucket_f = 0;
             height = 0;
         }
         
         else if (bucket >= m_numBuckets) {
-        	rightb = m_numBuckets;
-        	leftb = m_numBuckets-1; 
+  	    rightb = m_numBuckets;
+            leftb = m_numBuckets-1; 
             bucket_f = 0;
             height = 0;
         }
         
         else  {
-        	rightb = bucket+1;
-        	leftb = bucket-1;
+	    rightb = bucket+1;
+            leftb = bucket-1;
             bucket_f = -1;
             height = m_buckets[bucket];
         }
