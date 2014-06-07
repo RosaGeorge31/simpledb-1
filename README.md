@@ -1,7 +1,7 @@
 SimpleDB
 ========
 
-MIT's SimpleDB as done in CS 143 at UCLA
+MIT and UWashington's SimpleDB
 
-##Lisence
-MIT (I'm guessing, haha)
+##License
+SimpleDB's license + MIT
